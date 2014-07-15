@@ -21,9 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This comment solves for the inverse of a given matrix,
-## but first it checks to see if this operation has already been 
-## done. If so, it gets the value from the cache.
+## This function solves for the inverse of a given invertible square matrix,
+## but first it checks to see if this operation has already been done. 
+## If so, it gets the value from the cache.
 
 cacheSolve <- function(x, ...) {
         m <- x$getsolve()
